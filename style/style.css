@@ -35,9 +35,10 @@
 	text-shadow: 1px 2px 2px black;
 }
 
-
-.container{
-	}
+.row hr{
+	width: 250px;
+	border-top: 2px solid #999;
+}
 
 .footer{
 	background-color:rgb(20,35,51);
