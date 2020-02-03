@@ -35,9 +35,44 @@
 	text-shadow: 1px 2px 2px black;
 }
 
-.row hr{
+hr{
 	width: 250px;
 	border-top: 2px solid #999;
+}
+
+section {
+	min-height: 550px;
+}
+
+.galeri h3 {
+	margin-top: 20px;
+}
+
+.galeri{
+	background-color: #eee;
+	background-image: url("../img/email-pattern.png");
+	background-attachment: fixed;
+	width: 100%;
+
+}
+
+.inti-galeri{
+	width: 610px;
+	margin: 10px auto;
+	border: 5px solid white;
+	overflow: auto;
+
+}
+.mini {
+	width: 200px;
+	float: left;
+	border: 2px solid white;
+	box-sizing: border-box;
+}
+
+.mini:hover{
+	opacity: 0.8;
+	border-color: salmon;
 }
 
 .footer{

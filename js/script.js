@@ -1,5 +1,8 @@
-console.log('ok');
+const initiGaleri = document.querySelector('.inti-galeri');
+const jumbo = document.querySelector('.jumbo');
 
-// $('h1').mouseover(function(){
-// 	$('h1').css('color','skyblue');
-// })
+initiGaleri.addEventListener('click',function(e){
+	if(e.target.className == 'mini'){
+		console.log(jumbo.src = e.target.src);
+	}
+})
