@@ -41,13 +41,23 @@
 
 .footer{
 	background-color:rgb(20,35,51);
-	height: 100px;
+	height: 150px;
 }
 
 .footer button{
 	margin: 30px 1px;
 }
 
+.copyright{
+	height: 30px;
+	background-color: rgb(2,120,57);
+	margin-bottom: -20px;
+	padding-left: 10px;
+	font-size: 15px;
+	line-height: 30px;
+	color: white;
+
+}
 
 
 
