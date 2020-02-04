@@ -40,8 +40,8 @@ hr{
 	border-top: 2px solid #999;
 }
 
-section {
-	min-height: 550px;
+.about {
+	min-height: 500px;
 }
 
 .galeri h3 {
@@ -53,6 +53,7 @@ section {
 	background-image: url("../img/email-pattern.png");
 	background-attachment: fixed;
 	width: 100%;
+	min-height: 850px;
 
 }
 
@@ -73,6 +74,10 @@ section {
 .mini:hover{
 	opacity: 0.8;
 	border-color: salmon;
+}
+
+.contact h3{
+	margin-top: 20px;
 }
 
 .footer{
