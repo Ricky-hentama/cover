@@ -75,6 +75,9 @@ hr{
 	opacity: 0.8;
 	border-color: salmon;
 }
+.contact{
+	min-height: 550px;
+}
 
 .contact h3{
 	margin-top: 20px;
