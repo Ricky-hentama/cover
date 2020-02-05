@@ -6,3 +6,4 @@ initiGaleri.addEventListener('click',function(e){
 		console.log(jumbo.src = e.target.src);
 	}
 })
+
