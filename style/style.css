@@ -19,6 +19,7 @@
 	background-image: url("../img/jumbotron.jpg");
 	background-size: 1400px 500px;
 	background-attachment: fixed;
+	
 }
 
 .jumbotron img{
@@ -42,6 +43,8 @@ hr{
 
 .about {
 	min-height: 500px;
+}
+
 }
 
 .galeri h3 {
