@@ -1,0 +1,114 @@
+
+.navbar{
+	height: 38px;
+	width: 100%;
+	background-color: rgb(20,35,51);
+	z-index: 99;
+	position: fixed;
+}
+
+.navbar img{
+	width: 115px;
+	height: 28px;
+	margin-top: -3px;
+	margin-left: -13px;
+}
+
+
+.jumbotron{
+	background-image: url("../img/jumbotron.jpg");
+	background-size: 1400px 500px;
+	background-attachment: fixed;
+	
+}
+
+.jumbotron img{
+	margin-top: 30px;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border: 5px solid white;
+
+}
+.jumbotron h1, .jumbotron p{
+	color: white;
+	margin-top: 8px;
+	text-shadow: 1px 2px 2px black;
+}
+
+hr{
+	width: 250px;
+	border-top: 2px solid #999;
+}
+
+.about {
+	min-height: 500px;
+}
+
+}
+
+.galeri h3 {
+	margin-top: 20px;
+}
+
+.galeri{
+	background-color: #eee;
+	background-image: url("../img/email-pattern.png");
+	background-attachment: fixed;
+	width: 100%;
+	min-height: 850px;
+
+}
+
+.inti-galeri{
+	width: 610px;
+	margin: 10px auto;
+	border: 5px solid white;
+	overflow: auto;
+
+}
+.mini {
+	width: 200px;
+	float: left;
+	border: 2px solid white;
+	box-sizing: border-box;
+}
+
+.mini:hover{
+	opacity: 0.8;
+	border-color: salmon;
+}
+.contact{
+	min-height: 550px;
+}
+
+.contact h3{
+	margin-top: 20px;
+}
+
+.footer{
+	background-color:rgb(20,35,51);
+	height: 150px;
+}
+
+.footer button{
+	margin: 30px 1px;
+	color: white;
+}
+
+.copyright{
+	height: 30px;
+	background-color: rgb(2,123,57);
+	margin-bottom: -20px;
+	padding-left: 10px;
+	font-size: 15px;
+	line-height: 30px;
+	color: white;
+
+}
+
+
+
+
+
+
