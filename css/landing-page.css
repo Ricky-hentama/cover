@@ -1,0 +1,383 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.7 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+header.masthead {
+  position: relative;
+
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  /* background-size: cover; */
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.features-icons {
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+
+
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+  color: #560574;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+}
+
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: white;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.navbar {
+  background-color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.judul-utama {
+  text-shadow: 3px 3px hsl(0, 15%, 5%);
+  color: white;
+}
+
+.tombol-utama {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 50%;
+  margin-top: 30px;
+}
+
+video {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  width: 100%;
+}
+
+.tempat-icon {
+  background-color: white;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #560574;
+}
+
+.promo {
+  text-decoration: line-through;
+  color: salmon;
+}
+
+.showcase1 {
+  background-image: url('../img/berkarya.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase2 {
+  background-image: url('../img/squishy.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.showcase3 {
+  background-image: url('../img/paket3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1230px) {
+
+  /* showcase */
+  .showcase3 {
+    background-size: 600px 600px;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  header.masthead {
+    padding-top: 100px;
+  }
+
+
+  .promo-img {
+    width: 800px;
+  }
+
+  .main-baner {
+    width: 800px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  header.masthead {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  header.masthead h1 {
+    font-size: 40px;
+  }
+
+  .promo-img {
+    width: 650px;
+  }
+
+  .main-baner {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  header.masthead {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+
+  .promo-img {
+    width: 500px;
+  }
+
+  .main-baner {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  header.masthead h1 {
+    font-size: 30px;
+  }
+
+  .tombol-utama {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header.masthead {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  header.masthead h1 {
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .tombol-utama {
+    width: 250px;
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 10px;
+  }
+
+  /* showcase */
+  .showcase1 {
+    background-size: 500px 500px;
+    background-position: center;
+  }
+
+  .showcase2 {
+    background-size: 600px 600px;
+  }
+
+  .showcase3 {
+    background-size: 500px 500px;
+  }
+
+  #main {
+    padding-top: 100px;
+  }
+
+  .promo-img {
+    width: 400px;
+  }
+
+  .main-baner {
+    width: 400px;
+  }
+}
+
+
+
+@media only screen and (max-width: 450px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar-brand {
+    font-size: 16px;
+  }
+
+  header.masthead h1 {
+    font-size: 20px;
+  }
+
+  .tombol-utama {
+    width: 200px;
+    font-size: 16px;
+
+  }
+
+  /* showcase */
+  .showcase1 {
+    background-size: 400px 400px;
+    background-position: top;
+  }
+
+  .showcase2 {
+    background-size: 450px 450px;
+    background-position-y: 100px;
+  }
+
+  .showcase3 {
+    background-size: 400px 400px;
+
+  }
+
+  .promo-img {
+    width: 300px;
+  }
+
+  .main-baner {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  header.masthead {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .showcase1 {
+    background-size: 350px 350px;
+    background-position: center;
+  }
+
+  .showcase2 {
+    background-size: 360px 400px;
+  }
+
+  .showcase3 {
+    background-size: 360px 360px;
+  }
+
+  .tombol-utama {
+    width: 180px;
+    height: 30px;
+    padding: 0;
+    font-size: 14px;
+  }
+}
